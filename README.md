@@ -5,7 +5,7 @@
 ``` javascript
 const proxyTree = require("proxy-tree");
 
-const tree = module.exports((path, args) => {
+const tree = proxyTree((path, args) => {
 	console.log(path, args);
 });
 
